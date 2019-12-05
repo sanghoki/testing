@@ -29,7 +29,7 @@
 	<div class="kalkulator">
 		<h2 class="judul">KALKULATOR</h2>
 		<a class="brand" href="https://www.malasngoding.com">www.malasngoding.com</a>
-		<form method="post" action="index.php">			
+		<form method="post" action="index.jsp">			
 			<input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
 			<input type="text" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua">
 			<select class="opt" name="operasi">
