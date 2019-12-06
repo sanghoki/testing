@@ -13,6 +13,6 @@ Enter numbr for mulitplication tables: <input type="text" name="number" />
 <input type="submit"/>
 <br/>
 <br/>
-<p>&copy 2016 Preetham</p>
+<p>&copy 2019 Pusing KP</p>
 </body>
 </html>
