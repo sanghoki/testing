@@ -20,7 +20,7 @@
         conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12316313", "sql12316313", "Tk7s6xd1pe");
 
 
-        pst = conn.prepareStatement("insert into records(dbname,course,fee) values (?,?,?)");
+        pst = conn.prepareStatement("insert into kp(dbname,course,fee) values (?,?,?)");
         pst.setString(1, name1);
         pst.setString(2, course);
         pst.setString(3, fee);
@@ -92,7 +92,7 @@
                              conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12316313", "sql12316313", "Tk7s6xd1pe");
 
 
-                            String query = "Select * from records";
+                            String query = "Select * from kp";
                             Statement st = conn.createStatement();
 
                             rs = st.executeQuery(query);
