@@ -40,8 +40,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="webapp/src/main/webapp/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="webapp/src/main/webapp/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <h1>Testing</h1>
