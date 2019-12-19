@@ -9,7 +9,7 @@
     Class.forName("com.mysql.jdbc.Driver");
     conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12316313", "sql12316313", "Tk7s6xd1pe");
 
-    pst = conn.prepareStatement("delete from records where id=?");
+    pst = conn.prepareStatement("delete from kp where id=?");
     pst.setString(1, id);
     pst.executeUpdate();
 %>
