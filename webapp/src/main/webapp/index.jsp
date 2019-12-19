@@ -17,7 +17,8 @@
         ResultSet rs;
 
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost/testing2", "root", "");
+        conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12316313", "sql12316313", "Tk7s6xd1pe");
+
 
         pst = conn.prepareStatement("insert into records(dbname,course,fee) values (?,?,?)");
         pst.setString(1, name1);
@@ -89,7 +90,8 @@
                             ResultSet rs;
 
                             Class.forName("com.mysql.jdbc.Driver");
-                            conn = DriverManager.getConnection("jdbc:mysql://localhost/testing2", "root", "");
+                             conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12316313", "sql12316313", "Tk7s6xd1pe");
+
 
                             String query = "Select * from records";
                             Statement st = conn.createStatement();
