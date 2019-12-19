@@ -20,7 +20,7 @@
         Class.forName("com.mysql.jdbc.Driver");
         conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12316313", "sql12316313", "Tk7s6xd1pe");
 
-        pst = conn.prepareStatement("update records set dbname =? ,course =?, fee=? where id=?");
+        pst = conn.prepareStatement("update kp set dbname =? ,course =?, fee=? where id=?");
         pst.setString(1, name1);
         pst.setString(2, course);
         pst.setString(3, fee);
@@ -61,7 +61,7 @@
 
                         String id = request.getParameter("id");
 
-                        pst = conn.prepareStatement("select * from records where id =?");
+                        pst = conn.prepareStatement("select * from kp where id =?");
                         pst.setString(1, id);
                         rs = pst.executeQuery();
 
